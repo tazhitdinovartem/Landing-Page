@@ -19,6 +19,8 @@ h4 {
 }
 h5 {
   font-size: 1.25rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .iconify { 
   width: 80px; 
@@ -147,7 +149,8 @@ header {
 }
 .large-text {
   color: grey;
-  font-size: 20px;;
+  font-size: 16px;
+  line-height: 28px;
 }
 .showcase-in {
   display: flex;
@@ -256,9 +259,8 @@ footer {
 	.features-cols {
     display: block;
     .col {
-      margin-bottom: 30px;
       width: 50%;
-      margin: 0 auto;
+      margin: 0 auto 30px;
     }
   }
   .title {
@@ -276,5 +278,32 @@ footer {
       }
       margin-bottom: 30px;
     }
+  }
+}
+@media all and (max-width: 480px) {
+  .logo {
+    display: block;
+  }
+  nav {
+    text-align: center;
+    .btn {
+      margin: 10px 0 0 !important;
+      display: inline-block;
+      float: none;
+    }
+  }
+  .title {
+    h1 {
+      font-size: 2rem;
+    }
+    form {
+      display: block;
+    }
+    .form-col {
+      margin: 0 0 10px !important;
+    }
+  }
+  header {
+    padding: 80px 0 80px;
   }
 }
