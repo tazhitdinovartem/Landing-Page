@@ -4,7 +4,6 @@ body {
   background: #fff;
   color: #000;
   font-family: sans-serif;
-  min-width: 800px;
 }
 h1 {
   font-size: 3rem;
@@ -253,7 +252,7 @@ footer {
   padding: 20px 0;
   color: #000;
 }
-@media all and (max-width:800px) { 
+@media all and (max-width: 768px) { 
 	.features-cols {
     display: block;
     .col {
