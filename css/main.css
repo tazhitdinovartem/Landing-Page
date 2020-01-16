@@ -4,7 +4,7 @@ body {
   background: #fff;
   color: #000;
   font-family: sans-serif;
-  min-width: 800px; }
+  min-width: 700px; }
 
 h1 {
   font-size: 3rem; }
@@ -93,7 +93,7 @@ header {
   padding: 140px 0 140px; }
 
 .title {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   color: #fff; }
   .title h1 {
@@ -178,11 +178,13 @@ header {
       .testimonials .testimonials-block .col:nth-child(1) {
         order: 0;
         flex: 0 1 25%;
-        align-self: auto; }
+        align-self: auto;
+        margin-right: 10px; }
       .testimonials .testimonials-block .col:nth-child(2) {
         order: 0;
         flex: 0 1 25%;
-        align-self: auto; }
+        align-self: auto;
+        margin-right: 10px; }
       .testimonials .testimonials-block .col:nth-child(3) {
         order: 0;
         flex: 0 1 25%;
