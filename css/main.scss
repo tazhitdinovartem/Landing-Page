@@ -26,6 +26,7 @@ h5 {
 }
 .container {
   max-width: 1240px;
+  min-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -109,7 +110,7 @@ header {
     margin-bottom: 55px;
   }
   form {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
 }
