@@ -3,7 +3,8 @@ body {
   padding: 0;
   background: #fff;
   color: #000;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  min-width: 800px; }
 
 h1 {
   font-size: 3rem; }
@@ -26,7 +27,6 @@ h5 {
 
 .container {
   max-width: 1240px;
-  min-width: 960px;
   margin: 0 auto;
   padding: 0 20px; }
 
@@ -213,5 +213,27 @@ footer {
   background: #f8f9fa;
   padding: 20px 0;
   color: #000; }
+
+@media all and (max-width: 800px) {
+  .features-cols {
+    display: block; }
+    .features-cols .col {
+      margin-bottom: 30px;
+      width: 50%;
+      margin: 0 auto; }
+
+  .title {
+    width: 100%; }
+
+  .showcase-in {
+    display: block; }
+
+  .testimonials-block {
+    display: block !important; }
+    .testimonials-block .col {
+      margin-bottom: 30px; }
+      .testimonials-block .col p {
+        width: 70%;
+        margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
